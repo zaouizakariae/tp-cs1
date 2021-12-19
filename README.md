@@ -42,3 +42,8 @@ sudo ./sniffer eth0 100
 ![cs7](https://user-images.githubusercontent.com/85891554/146661531-b0f19212-4e8e-4ea0-8cec-59b918f7bc19.png)
  
  # Partie 2 : manipulation de sniffers 
+
+Dans cette partie, nous nous intéressons à la manipulation de quelques sniffers existants. 
+
+- Lancer le logiciel wireshark en arrière- plan (wireshark &) et commencez la capture sur l’interface ETHERNET ou sans fil. 
+
