@@ -22,3 +22,6 @@ cc sniffer_eth_ip_tcp_data.c -o sniffer
 ```
 sudo ./sniffer eth0 100
 ```
+![cs1](https://user-images.githubusercontent.com/85891554/146661410-e8f40936-3b69-4481-ad35-7f418c9cc1c6.png)
+
+- Dans la manipulation précédente, les trames sont affichées sous format hexadécimal. Pour afficher le contenu de l’entête ETHERNET, il faut enlever le commentaire de la fonction ParseEthernetHeader, recompiler, régénérer l’exécutable et refaire l’étape 2). 
