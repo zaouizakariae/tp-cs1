@@ -62,3 +62,9 @@ Dans cette partie, nous nous intéressons à la manipulation de quelques sniffer
 - Configurer le filtre de wireshark pour (voir annexe 2). 
   - n'afficher que les trames concernant un protocole particulier : bootp, tcp, icmp,etc 
   
+  ![cs31](https://user-images.githubusercontent.com/85891554/146661929-ee796fa2-45f5-47c6-af0a-e5fda84290ed.png)
+  ![cs32](https://user-images.githubusercontent.com/85891554/146661930-141b95e8-b879-4f06-a3ec-24bfda914d40.png)
+  ![cs](https://user-images.githubusercontent.com/85891554/146661932-6d7fee0a-4437-40e3-9ef0-03bd25bb40c2.png)
+  ![cs33](https://user-images.githubusercontent.com/85891554/146661934-85f411ff-bd85-47dc-a7c3-5dcc767e8d40.png)
+  
+  - n'afficher que les trames dont l'adresse MAC destination est celle de votre machine 
