@@ -47,3 +47,13 @@ Dans cette partie, nous nous intéressons à la manipulation de quelques sniffer
 
 - Lancer le logiciel wireshark en arrière- plan (wireshark &) et commencez la capture sur l’interface ETHERNET ou sans fil. 
 
+![cs11](https://user-images.githubusercontent.com/85891554/146661790-4b9ea5bc-edcb-4a41-a575-541e10c714b0.png)
+![cs12](https://user-images.githubusercontent.com/85891554/146661794-390beed0-1f59-402e-bb7c-0d4320299593.png)
+
+- Lancez des applications d’échange de trafic entre d'autres machines et la votre. Observez-les paquets capturés
+
+![cs13](https://user-images.githubusercontent.com/85891554/146661798-91cf5687-829a-4c72-8e10-4d093bcaabbd.png)
+
+- Est-ce que vous pouvez capturer les trafics échangés entre les machines du reste du réseau? 
+  - Oui, les trafics échangés entre les machines du reste du réseau sont capturés. Si on effectue par exemple un Ping entre la machine virtuelle Windows (192.168.1.4) et Ubuntu (192.168.1.3) on peut capturer les paquets envoyés sur wireshark à partir de la machine virtuelle Kali
+
