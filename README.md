@@ -57,3 +57,8 @@ Dans cette partie, nous nous intéressons à la manipulation de quelques sniffer
 - Est-ce que vous pouvez capturer les trafics échangés entre les machines du reste du réseau? 
   - Oui, les trafics échangés entre les machines du reste du réseau sont capturés. Si on effectue par exemple un Ping entre la machine virtuelle Windows (192.168.1.4) et Ubuntu (192.168.1.3) on peut capturer les paquets envoyés sur wireshark à partir de la machine virtuelle Kali
 
+![cs21](https://user-images.githubusercontent.com/85891554/146661880-a2e4e896-2c9d-4039-abc0-8a1c0482f19a.png)
+
+- Configurer le filtre de wireshark pour (voir annexe 2). 
+  - n'afficher que les trames concernant un protocole particulier : bootp, tcp, icmp,etc 
+  
