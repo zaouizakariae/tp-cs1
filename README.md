@@ -74,4 +74,7 @@ Dans cette partie, nous nous intéressons à la manipulation de quelques sniffer
   - n'afficher que les trames échangé entre deux machines d'adresse @IP1 et @IP2 
   
   ![cs42](https://user-images.githubusercontent.com/85891554/146661975-6bd4c92b-2ade-44ce-b37e-4480f0bc012e.png)
-
+  
+  - n'afficher que les trames dont la taille est supérieure à une taille donnée 
+  
+  ![cs51](https://user-images.githubusercontent.com/85891554/146662009-0be565ca-2c74-4961-9a0c-e65ee616f564.png)
