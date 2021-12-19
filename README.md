@@ -25,3 +25,7 @@ sudo ./sniffer eth0 100
 ![cs1](https://user-images.githubusercontent.com/85891554/146661410-e8f40936-3b69-4481-ad35-7f418c9cc1c6.png)
 
 - Dans la manipulation précédente, les trames sont affichées sous format hexadécimal. Pour afficher le contenu de l’entête ETHERNET, il faut enlever le commentaire de la fonction ParseEthernetHeader, recompiler, régénérer l’exécutable et refaire l’étape 2). 
+
+![cs2 (2)](https://user-images.githubusercontent.com/85891554/146661437-1deb99a6-18ed-486e-8140-81d1594cb26a.png)
+
+- Pour Afficher le contenu des entêtes des protocoles des niveaux supérieurs, enlevez les commentaires des fonctions correspondantes (au niveau de la fonction main), recompiler, régénérer l’exécutable et exécuter de nouveau le sniffer. Pensez à faire un échange de trafic TCP (en utilisant par exemple le serveur vsftpd ou en se connectant à Internet). 
